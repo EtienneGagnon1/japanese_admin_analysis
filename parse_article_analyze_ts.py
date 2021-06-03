@@ -8,6 +8,8 @@ import numpy as np
 from factiva_formatter import FactivaFormatter
 from time_series_analyzer import TimeSeriesAnalyzer
 import matplotlib.pyplot as plt
+import matplotlib
+matplotlib.use('Agg')
 
 
 def main():
